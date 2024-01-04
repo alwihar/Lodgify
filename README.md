@@ -25,7 +25,7 @@ The widget is designed as per the specifications provided in the [Lodgify Front-
 
 To get started with the project, clone the repository and install the dependencies:
 
-- git clone 
+- git clone https://github.com/alwihar/Lodgify.git
 - cd Lodgify
 - npm install
 
