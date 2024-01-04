@@ -1,0 +1,51 @@
+.task-group {
+  border-bottom: 1px solid #DDDDDD;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .group-title {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e8e8e8;
+    }
+
+    .group-text {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+
+      .group-icon {
+        margin: 10px
+      }
+    }
+
+    .group-completed {
+      color: #00B797;
+    }
+
+    .hide-and-show {
+      display: flex;
+      align-items: center;
+      color: #999999;
+
+      .toggle-icon {
+        margin-left: 10px;
+
+        &.rotated {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+
+  .task-items {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,50 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+
+    label {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .custom-checkbox {
+      position: relative;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      border: 1px solid #999999;
+      border-radius: 4px;
+      background-color: #fff;
+      cursor: pointer;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: 6px;
+        top: 2px;
+        width: 5px;
+        height: 10px;
+        border: solid #fff;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+      }
+    }
+
+    input {
+      display: none;
+    }
+
+    input:checked + .custom-checkbox {
+      background-color: #00B797;
+      border-color: #00B797;
+    }
+  }
+}

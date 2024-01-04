@@ -1,0 +1,24 @@
+.progress-bar {
+  height: 20px;
+  background-color: #F2FBFA;
+  border-radius: 10px;
+  position: relative;
+
+  .completed-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #00B797;
+    border-radius: 16px;
+  }
+
+  span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+  }
+}
