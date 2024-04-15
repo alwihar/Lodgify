@@ -1,10 +1,10 @@
-# Lodgify Technical Challenge - Task Progress Widget
+# Task Progress Widget
 
 This project is a React-based widget that displays the progress of a user's profile creation process. The widget features a series of tasks grouped into different categories. Users can view and interact with these tasks, checking them off as they are completed. The overall progress is visually represented in a progress bar that updates based on the completion status of the tasks.
 
 ## Project Overview
 
-The widget is designed as per the specifications provided in the [Lodgify Front-End Technical Challenge](https://lodgify.notion.site/Lodgify-FE-Technical-Challenge-65599fbea9d9436794e12f62d6542c3b). Key functionalities include:
+Key functionalities include:
 
 - Displaying tasks grouped by categories.
 - Allowing users to mark tasks as completed.
